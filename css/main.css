@@ -26,11 +26,40 @@ ul a {
   float: right;
 }
 
-
 .banner {
   background-image: url(https://static.pexels.com/photos/271560/pexels-photo-271560.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 75vh;
   background-position: right;
+}
+
+/** REVIEWS **/
+
+blockquote {
+  background: #F8F8F8;
+  border: 1px solid #000;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019"";
+}
+
+blockquote:before {
+  font-family: Georgia, serif;
+  display: block;
+  padding-left: 10px;
+  color: #12433A;
+  content: "\201C";
+  font-size: 8em;
+  position: absolute;
+  line-height: 1em;
+  margin-right: .25em;
+  vertical-align: .4em;
+}
+
+blockquote p {
+  display: inline;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
