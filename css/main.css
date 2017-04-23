@@ -1,6 +1,6 @@
 html {
   font-family: 'Open Sans', sans-serif;
-font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .wrapper {
@@ -71,6 +71,39 @@ hr {
   border-color: #000;
   margin: 2rem;
 
+}
+
+/** ICONS **/
+
+.icon-label {
+  color: #12433A;
+}
+
+.icon-content {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.img-flex {
+  margin: auto;
+}
+
+ul {
+  padding: 0;
+}
+
+/** FREE RESOURCES SECTION **/
+
+.msn-section {
+  color: #12433A;
+}
+
+.msn-content {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.resources-button .btn {
+  background-color: #12433A;
+  border: 0;
 }
 
 /** REVIEWS **/
