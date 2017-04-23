@@ -1,5 +1,6 @@
 html {
   font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .wrapper {
@@ -23,9 +24,13 @@ html {
 
 ul a {
   float: right;
+  font-family: 'Open Sans', sans-serif;
 }
 
+/** BANNER CONTENT **/
+
 .banner {
+  position: relative;
   background-image:
   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
   url(https://static.pexels.com/photos/271560/pexels-photo-271560.jpeg);
@@ -33,6 +38,25 @@ ul a {
   background-size: cover;
   height: 75vh;
   background-position: right;
+}
+
+.banner-content {
+  position: absolute;
+  top: 120px;
+  color: #fff;
+}
+
+.banner-heading {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.banner-content-small {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.banner-button .btn {
+  background-color: #12433A;
+  border: 0;
 }
 
 /** OPENING **/
