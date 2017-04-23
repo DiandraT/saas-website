@@ -1,6 +1,5 @@
 html {
   font-family: 'Open Sans', sans-serif;
-  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .wrapper {
@@ -27,11 +26,27 @@ ul a {
 }
 
 .banner {
-  background-image: url(https://static.pexels.com/photos/271560/pexels-photo-271560.jpeg);
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(https://static.pexels.com/photos/271560/pexels-photo-271560.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 75vh;
   background-position: right;
+}
+
+/** OPENING **/
+
+.opening-subhead {
+  color: #12433A;
+}
+
+/** HR LINES **/
+
+hr {
+  border-color: #000;
+  margin: 2rem;
+
 }
 
 /** REVIEWS **/
@@ -61,5 +76,14 @@ blockquote p {
   display: inline;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+/** FOOTER **/
+
+footer {
+  background-color: #12433A;
+  color: #fff;
+  padding: 2.5rem;
   text-align: center;
 }
