@@ -239,6 +239,24 @@ input[type="radio"] + label::before {
   border-color: #12433A;
 }
 
-input[type="radio"] + label::before {
+input[type="radio"] + label::after{
   border-color: #12433A;
+}
+
+input[type="checkbox"] + label::before {
+  border-color: #12433A;
+}
+
+input[type="checkbox"] + label::after{
+  border-color: #12433A;
+}
+
+.signup-button {
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  background-color: #12433A;
+  border: none;
 }
