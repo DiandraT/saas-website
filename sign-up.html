@@ -48,14 +48,62 @@
           </div>
 
           <div class="unit xs-1 l-1-2 push-2 gutter-1-4 italic">
-            <label for="options" class="push-1-2">Country *</label>
+            <label for="options" class="push-1-2">Region *</label>
             <select id="options" name="options">
-              <option value="">Canada</option>
-              <option>Australia</option>
+              <option value="">Select a region</option>
+              <option>North America</option>
+              <option>United Kingdom</option>
+              <option>Arab States</option>
+              <option>Asia & Pacific</option>
+              <option>CIS</option>
+              <option>Europe</option>
+              <option>South/Latin America</option>
             </select>
           </div>
 
+          <div class="unit xs-1 l-1-2 push-2 gutter-1-4 italic">
+            <label for="options" class="push-1-2">Country *</label>
+            <select id="options" name="options">
+              <option value="">Select a country</option>
+              <option>North America</option>
+              <option>United Kingdom</option>
+              <option>Arab States</option>
+              <option>Asia & Pacific</option>
+              <option>CIS</option>
+              <option>Europe</option>
+              <option>South/Latin America</option>
+            </select>
+          </div>
 
+          <div class="unit xs-1 l-1-2 push-2 gutter-1-4 italic">
+            <label for="city" class="push-1-2">City *</label>
+            <input type="city" id="city" name="city">
+          </div>
+
+          <div class="unit xs-1 l-1-2 push-1-2 gutter-1-4 italic">
+            <label for="zipcode" class="push-1-2">Postal code *</label>
+            <input type="text" pattern="[0-9 {4}]" name="zipcode">
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend class="plan-name push gutter giga">Plan</legend>
+        <div class="grid">
+          <div class="unit xs-1 l-1-2 push-2 gutter">
+            <input type="radio" name="format" id="trial" value="trial">
+            <label for="trial">15 day trial</label>
+          </div>
+
+          <div class="unit xs-1 l-1-2 push-2 gutter">
+            <input type="radio" name="format" id="basic" value="basic">
+            <label for="basic">Basic MGFX</label>
+          </div>
+
+          <div class="unit xs-1 l-1-2 push-2 gutter">
+            <input type="radio" name="format" id="plus" value="plus">
+            <label for="plus">MGFX<span class="plus-name italic"> plus</label>
+          </div>
 
         </div>
       </fieldset>

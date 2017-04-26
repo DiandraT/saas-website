@@ -218,12 +218,27 @@ label {
 
 input[type="text"],
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+input[type="country"],
+input[type="city"]{
   border: 1px solid #12433A;
   outline: none;
 }
 
-select {
+select[id="options"] {
   outline: none;
-  background-color: #fff;
+  background-color: #E0EAE8;
+  border: 1px solid #12433A;
+}
+
+legend {
+  color: #12433A;
+}
+
+input[type="radio"] + label::before {
+  border-color: #12433A;
+}
+
+input[type="radio"] + label::before {
+  border-color: #12433A;
 }
