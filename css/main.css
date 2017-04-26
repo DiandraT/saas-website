@@ -225,7 +225,8 @@ input[type="city"]{
   outline: none;
 }
 
-select[id="options"] {
+select[id="options"],
+select[id="options-2"] {
   outline: none;
   background-color: #E0EAE8;
   border: 1px solid #12433A;
@@ -237,6 +238,7 @@ legend {
 
 input[type="radio"] + label::before {
   border-color: #12433A;
+  outline: none;
 }
 
 input[type="radio"] + label::after{
@@ -251,12 +253,51 @@ input[type="checkbox"] + label::after{
   border-color: #12433A;
 }
 
-.signup-button {
+input[type="button"] {
   margin: auto;
   text-align: center;
 }
 
-.btn {
+.signup-button a {
+  margin: auto;
+  text-align: center;
   background-color: #12433A;
   border: none;
+  color: #fff;
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-radius: .25em;
+  text-decoration: none;
+}
+
+/** PRICING PAGE **/
+
+.pricing-wrapper {
+  background-color: #12433A;
+}
+
+.pricing-h1 {
+  color: #fff;
+}
+
+.pricing-p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.pricing-btn {
+  border: 1px solid #fff;
+  background-color: #12433A;
+}
+
+.mgfx-button {
+  color: #12433A;
+}
+
+.mgfx-btn {
+  border: 1px solid #12433A;
+  background-color: #fff;
+  color: #12433A;
 }
