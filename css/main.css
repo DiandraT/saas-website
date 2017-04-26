@@ -216,6 +216,14 @@ label {
   font-weight: 300;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="email"],
+input[type="password"] {
   border: 1px solid #12433A;
+  outline: none;
+}
+
+select {
+  outline: none;
+  background-color: #fff;
 }
