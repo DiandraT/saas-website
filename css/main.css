@@ -5,25 +5,71 @@ html {
 
 .wrapper {
   color: #fff;
-  padding: 1rem;
 }
 
 /** LOGO **/
 
 .logo {
-  width: 30%;
   max-width: 200px;
-  padding-top: 1rem;
-  padding-left: .5rem;
-  left: 0;
-  top: 0;
 }
 
 /** NAVIGATION **/
 
-ul a {
+header nav a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+header li {
+  list-style-type: none;
+  overflow: hidden;
+  white-space: none;
+}
+
+ul {
+  padding: 0;
+}
+
+/* Syling dropdown menu */
+
+.material-icons {
+  background-color: #12433A;
+  color: #fff;
+
+  border: 1px solid;
+  border-radius: 10%; /** Curving the sides of the shape**/
+}
+
+.menu { /** Positioning the dropwdown content **/
+  position: relative;
+  display: inline-block;
+  z-index: 100;
   float: right;
-  font-family: 'Open Sans', sans-serif;
+}
+
+.dropdown-content a { /** Styling the links within the dropdown menu **/
+  color: #000;
+  display: block;
+}
+
+.dropdown-content a:hover { /** Changing the dropdown links background when clicked **/
+  display: block;
+  background-color: #12433A;
+  color: #fff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #fff;
+  text-align: center;
+}
+
+.menu:hover .dropdown-content {
+  display: block;
 }
 
 /** BANNER CONTENT **/
@@ -41,7 +87,7 @@ ul a {
 
 .banner-content {
   position: absolute;
-  top: 120px;
+  top: 150px;
   color: #fff;
 }
 
@@ -53,9 +99,17 @@ ul a {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.banner-button .btn {
+.banner-button a {
+  margin: auto;
+  text-align: center;
   background-color: #12433A;
-  border: 0;
+  border: none;
+  color: #fff;
+  padding: .5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-radius: .25em;
+  text-decoration: none;
 }
 
 /** OPENING **/
@@ -243,7 +297,41 @@ footer {
 /** RESOURCES PAGE **/
 
 .resources-h2 {
-  color: #12433A; 
+  color: #12433A;
+}
+
+.team-h3 {
+  color: #12433A;
+}
+
+.advertising-h3 {
+  color: #12433A;
+}
+
+.film-h3 {
+  color: #12433A;
+}
+
+.dict-title {
+  color: #12433A;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.dict-content {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.dict-h4 {
+  color: #12433A;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.plugins-title {
+  color: #12433A;
+}
+
+.plugins-slogan {
+  font-family: 'Open Sans', sans-serif;
 }
 
 /** SIGN UP PAGE **/
