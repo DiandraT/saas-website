@@ -26,17 +26,11 @@ li {
 header li {
   list-style-type: none;
   overflow: hidden;
-  white-space: none;
+  white-space: nowrap;
 }
 
 ul {
   padding: 0;
-  clear: left;
-  float: right;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  text-align: center;
 }
 
 /* Syling dropdown menu */
@@ -46,6 +40,7 @@ ul {
   color: #fff;
   border: 1px solid;
   border-radius: 10%; /** Curving the sides of the shape**/
+
 }
 
 .menu { /** Positioning the dropwdown content **/
@@ -55,7 +50,7 @@ ul {
   float: right;
 }
 
-.dropdown-content ul a { /** Styling the links within the dropdown menu **/
+.dropdown-content a { /** Styling the links within the dropdown menu **/
   color: #000;
   display: block;
   float: left;
@@ -73,13 +68,20 @@ ul {
   background: #fff;
   text-align: center;
   margin: 0 0 0 5px;
-  margin-top: 20%;
+  margin-top: 75px;
   padding: 6px 10px;
-
 }
 
 .menu:hover .dropdown-content {
   display: block;
+}
+
+.menu:hover .material-icons {
+  background-color: #fff;
+  border: 2px solid #12433A;
+  color: #12433A;
+  cursor: pointer;
+  outline: none;
 }
 
 /** BANNER CONTENT **/
