@@ -170,9 +170,17 @@ ul {
   font-family: 'Open Sans', sans-serif;
 }
 
-.resources-button .btn {
+.resources-button a {
+  margin: auto;
+  text-align: center;
   background-color: #12433A;
-  border: 0;
+  border: none;
+  color: #fff;
+  padding: .5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-radius: .25em;
+  text-decoration: none;
 }
 
 /** REVIEWS **/
@@ -452,7 +460,6 @@ input[type="button"] {
 @media only screen and (min-width: 25em) {
 
   html {
-
     line-height: 1.4;
   }
 
