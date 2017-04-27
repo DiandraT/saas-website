@@ -460,15 +460,32 @@ input[type="button"] {
     display: none;
   }
 
-  .dropdown-content {
+  .dropdown-content a:hover { /** Changing the dropdown links background when clicked **/
     display: block;
-    position: relative;
-    margin-top: 0;
-    margin-bottom: 0
+    background-color: #12433A;
+    color: #fff;
   }
 
-  .dropdown-ul li {
-    display: inline-block;
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background: #fff;
+    text-align: center;
+    margin: 0 0 0 5px;
+    margin-top: 75px;
+    padding: 6px 10px;
+  }
+
+  .menu:hover .dropdown-content {
+    display: block;
+  }
+
+  .menu:hover .material-icons {
+    background-color: #fff;
+    border: 2px solid #12433A;
+    color: #12433A;
+    cursor: pointer;
+    outline: none;
   }
 
 }
