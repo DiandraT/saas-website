@@ -460,12 +460,6 @@ input[type="button"] {
     display: none;
   }
 
-  .dropdown-content a:hover { /** Changing the dropdown links background when clicked **/
-    display: block;
-    background-color: #12433A;
-    color: #fff;
-  }
-
   .dropdown-content {
     display: none;
     position: absolute;
@@ -476,16 +470,8 @@ input[type="button"] {
     padding: 6px 10px;
   }
 
-  .menu:hover .dropdown-content {
-    display: block;
-  }
-
-  .menu:hover .material-icons {
-    background-color: #fff;
-    border: 2px solid #12433A;
-    color: #12433A;
-    cursor: pointer;
-    outline: none;
+  .dropdown ul li {
+    display: inline-block;
   }
 
 }
