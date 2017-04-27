@@ -351,7 +351,6 @@ footer {
 }
 
 .dict-title,
-.dict-content,
 .dict-h4 {
   color: #12433A;
 }
@@ -360,8 +359,12 @@ footer {
   color: #12433A;
 }
 
-.plugins-slogan {
-  font-family: 'Open Sans', sans-serif;
+.plugins-h4 {
+  color: #12433A;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 /** SIGN UP PAGE **/
@@ -440,19 +443,34 @@ input[type="button"] {
   background-color: #12433A;
 }
 
+.pricing-content {
+  color: #fff;
+  position: absolute;
+  top: 75px;
+}
+
 .pricing-h1 {
   color: #fff;
 }
 
 .pricing-p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
+  margin-right: 2em;
+  margin-left: 2em;
   color: #fff;
 }
 
 .pricing-btn {
   border: 1px solid #fff;
+  border-radius: .25em;
   background-color: #12433A;
+  padding: 2em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.button a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .mgfx-button {
