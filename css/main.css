@@ -31,6 +31,12 @@ header li {
 
 ul {
   padding: 0;
+  clear: left;
+  float: right;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
 }
 
 /* Syling dropdown menu */
@@ -38,7 +44,6 @@ ul {
 .material-icons {
   background-color: #12433A;
   color: #fff;
-
   border: 1px solid;
   border-radius: 10%; /** Curving the sides of the shape**/
 }
@@ -50,9 +55,10 @@ ul {
   float: right;
 }
 
-.dropdown-content a { /** Styling the links within the dropdown menu **/
+.dropdown-content ul a { /** Styling the links within the dropdown menu **/
   color: #000;
   display: block;
+  float: left;
 }
 
 .dropdown-content a:hover { /** Changing the dropdown links background when clicked **/
@@ -66,6 +72,10 @@ ul {
   position: absolute;
   background: #fff;
   text-align: center;
+  margin: 0 0 0 5px;
+  margin-top: 20%;
+  padding: 6px 10px;
+
 }
 
 .menu:hover .dropdown-content {
