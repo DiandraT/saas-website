@@ -434,3 +434,29 @@ input[type="button"] {
   background-color: #fff;
   color: #12433A;
 }
+
+/** MEDIA QUERIES **/
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .material-icons {
+    display: none;
+  }
+
+  .dropdown-content {
+    display: block;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0
+  }
+
+  .dropdown-ul li {
+    display: inline-block;
+  }
+
+}
