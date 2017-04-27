@@ -11,6 +11,7 @@ html {
 
 .logo {
   max-width: 200px;
+  cursor: pointer;
 }
 
 /** NAVIGATION **/
@@ -256,7 +257,8 @@ input[type="text"], textarea, select {
 footer {
   background-color: #12433A;
   color: #fff;
-  padding: 2.5rem;
+  padding: 2.5em;
+  padding-top: 1.5em;
   text-align: center;
 }
 
@@ -326,6 +328,12 @@ footer {
 
 /** RESOURCES PAGE **/
 
+.resource-content {
+  color: #fff;
+  position: absolute;
+  top: 100px;
+}
+
 .resources-h2 {
   color: #12433A;
 }
@@ -342,18 +350,10 @@ footer {
   color: #12433A;
 }
 
-.dict-title {
-  color: #12433A;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.dict-content {
-  font-family: 'Open Sans', sans-serif;
-}
-
+.dict-title,
+.dict-content,
 .dict-h4 {
   color: #12433A;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .plugins-title {
@@ -476,7 +476,7 @@ input[type="button"] {
 
   .tour-content {
     padding: 2em;
-    top: 135px;
+    top: 150px;
   }
 
   .tour-opening-sentence-2 {
@@ -496,6 +496,19 @@ input[type="button"] {
   html {
     font-size: 100%;
     line-height: 1.4;
+  }
+
+  .banner-heading {
+    padding-right: 3em;
+    padding-left: 3em;
+  }
+
+  .icon-label {
+    font-size: 20px;
+  }
+
+  .icon-content {
+    font-size: 15px;
   }
 
   .tour-content {
@@ -534,6 +547,11 @@ input[type="button"] {
     text-decoration: none;
   }
 
+  .copyright {
+    float: left;
+    font-size: .5em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -541,6 +559,12 @@ input[type="button"] {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .banner-content {
+    margin: 5rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
   }
 
   .material-icons {
@@ -567,6 +591,30 @@ input[type="button"] {
     z-index: 1000;
   }
 
+  .opening-content {
+    margin-right: 3em;
+    margin-left: 3em;
+    padding: 2em;
+  }
+
+  .resource-section {
+    margin: 5em;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+  }
+
+  .tour-opening {
+    margin: 5em;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+  }
+
+  .ideas-section {
+    margin: 6em;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -576,9 +624,40 @@ input[type="button"] {
     line-height: 1.5;
   }
 
-  .dropdown-content {
-    padding: 10em;
+  .banner-content {
+    margin: 5rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
   }
 
+  .resource-section {
+    margin: 5em;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+  }
+
+  .material-icons {
+    display: none;
+  }
+
+  .dropdown-content {
+    display: block;
+    position: relative;
+    background: none;
+    padding-top: 1.25em;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+  }
+
+  .dropdown-content a {
+    padding-left: 1.75em;
+    padding-right: 0;
+  }
+
+  .menu ul li {
+    display: inline-block;
+    z-index: 1000;
+  }
 
 }

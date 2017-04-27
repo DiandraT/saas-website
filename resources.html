@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Resources</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,600" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -12,34 +12,56 @@
 </head>
 <body>
 
-  <header>
-    <div class="logo push-1-2 gutter">
-      <a href="index.html" class="island"><img src="images/logo.svg" alt="" height="75" width="75"></a>
-    </div>
-  </header>
+  <!-- NAVIGATION -->
 
+  <header class="header-banner-top">
+    <div class="wrapper">
+      <div class="menu">
+        <div class="material-button island right push-2">
+          <button class="material-icons">—</button>
+        </div>
+        <div class="dropdown-content">
+          <nav>
+            <ul class="mega push-0">
+              <li><a href="tour.html">Tour</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="sign-up.html">Sign Up</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="logo push-0 gutter">
+        <a href="index.html"><img src="images/logo.svg" alt="" height="75" width="75"></a>
+      </div>
+    </div>
+
+    <!-- BANNER CONTENT-->
 
 <main>
   <div class="wrapper-tour text-center push-2">
-    <h1 class="tour-h1 pad-t-2 gutter-1-2 yotta">RESOURCES</h1>
-    <p class="tour-p pad-b-2 gutter-1-2">Here is a list of resources and tools to help grow your editing and effects experience.</p>
+    <div class="resource-content">
+      <h1 class="tour-h1 pad-t-2 gutter-1-2 yotta">RESOURCES</h1>
+      <p class="tour-p pad-b-2 gutter-1-2">Here is a list of resources and tools to help grow your editing and effects experience.</p>
+    </div>
   </div>
 
   <div class="examples-tutorials">
-    <h2 class="resources-h2 gutter-1-2">Examples & Tutorials</h2>
+    <h2 class="resources-h2 text-center push-2 gutter-1-2 yotta">Examples & Tutorials</h2>
 
     <div class="grid gutter">
       <div class="unit xs-1 s-1 m-1-2 l-1-3">
-        <div class="team-tutorial gutter1-2 push-2">
+        <div class="embed team-tutorial gutter-1-2 push-2">
           <img src="images/resources/video-photo.jpg" class="img-flex" alt="">
-          <h3 class="team-h3 pad-t-1-2 push-0 pad-b-1-2">The benefits of collaborating </h3>
+          <h3 class="team-h3 pad-t-2 push-0 pad-b-1-2">The benefits of collaborating </h3>
           <p class="team-p bold milli">3 parts</p>
           <p class="team-p2 push-2">This is a 3 part video series that will walk any beginner through the process of collaborating with team members and the benefits. with MGFX </p>
         </div>
       </div>
 
     <div class="unit xs-1 s-1 m-1-2 l-1-3">
-      <div class="advertising-tutorial gutter push-2">
+      <div class="embed advertising-tutorial gutter-1-2 push-2">
         <img src="images/resources/video2-photo.jpg" class="img-flex" alt="">
         <h3 class="advertising-h3 pad-t-2 push-0 pad-b-1-2">MGFX in Advertising</h3>
         <p class="advertising-p bold milli">4 parts</p>
@@ -48,7 +70,7 @@
     </div>
 
     <div class="unit xs-1 s-1 m-1-2 l-1-3">
-      <div class="film-tutorial gutter-1-2">
+      <div class=" film-tutorial gutter-1-2">
         <img src="images/resources/video3-photo.jpg" class="img-flex" alt="">
         <h3 class="film-h3 pad-t-2 push-0 pad-b-1-2">MGFX for Film Post-Production</h3>
         <p class="film-p bold milli">5 parts</p>
@@ -61,8 +83,9 @@
 <hr>
 
 <section>
-  <h2 class="dict-title pad-t-2 push-0 gutter bold">Dictionary</h2>
-  <p class="dict-content pad-t-1-2 push-2 gutter">Some MGFX’s common terminology.</p>
+
+      <h2 class="dict-title pad-t-2 push-0 gutter bold text-center yotta">Dictionary</h2>
+      <p class="dict-content pad-t-1-2 push-2 gutter text-center">Some MGFX’s common terminology.</p>
 
   <div class="grid">
   <div class="unit xs-1 s-1 m-1-3 l-1-3 dict-half gutter">
