@@ -192,6 +192,10 @@ ul {
   margin: 1.5em 1em;
 }
 
+.review-one {
+  position: relative;
+}
+
 blockquote {
   line-height: 1.5;
 }
@@ -218,10 +222,6 @@ blockquote p {
 
 .quote-cite {
   color: #12433A;
-}
-
-.description {
-  color: e2e2e2;
 }
 
 /** BOTTOM TEXTFIELD**/
