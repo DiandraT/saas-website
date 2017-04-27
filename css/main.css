@@ -243,13 +243,17 @@ input[type="text"], textarea, select {
   font-family: 'Open Sans', sans-serif;
 }
 
-input[type="button"], select {
+.homepage-button3 {
   outline: none;
   color: #fff;
   background-color: #12433A;
   border: 0px;
   font-family: 'Open Sans', sans-serif;
-  padding-bottom: 2.25em;
+}
+
+.get-started-btn {
+  color: #fff;
+  text-decoration: none;
 }
 
 /** FOOTER **/
