@@ -457,7 +457,30 @@ input[type="button"] {
   }
 
   .material-icons {
-    display: none;
+    background-color: #12433A;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 10%; /** Curving the sides of the shape**/
+
+  }
+
+  .menu { /** Positioning the dropwdown content **/
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+    float: right;
+  }
+
+  .dropdown-content a { /** Styling the links within the dropdown menu **/
+    color: #000;
+    display: block;
+    float: left;
+  }
+
+  .dropdown-content a:hover { /** Changing the dropdown links background when clicked **/
+    display: block;
+    background-color: #12433A;
+    color: #fff;
   }
 
   .dropdown-content {
@@ -468,6 +491,18 @@ input[type="button"] {
     margin: 0 0 0 5px;
     margin-top: 75px;
     padding: 6px 10px;
+  }
+
+  .menu:hover .dropdown-content {
+    display: block;
+  }
+
+  .menu:hover .material-icons {
+    background-color: #fff;
+    border: 2px solid #12433A;
+    color: #12433A;
+    cursor: pointer;
+    outline: none;
   }
 
 }
