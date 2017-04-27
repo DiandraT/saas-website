@@ -185,12 +185,15 @@ ul {
 
 /** REVIEWS **/
 
-blockquote {
+.review-one,
+.review-two {
   background: #F8F8F8;
   border: 1px solid #000;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019""
+  margin: 1.5em 1em;
+}
+
+blockquote {
+  line-height: 1.5;
 }
 
 blockquote:before {
@@ -198,19 +201,27 @@ blockquote:before {
   display: block;
   padding-left: 10px;
   color: #12433A;
-  content: "\201C";
-  font-size: 8em;
-  position: absolute;
-  line-height: 1em;
+  content: "\201C"; /* What makes the quotations appear */
+  font-size: 4em;
+  position: relative;
   margin-right: .25em;
+  margin-top: .5em;
   vertical-align: .4em;
+  text-align: center;
 }
 
 blockquote p {
   display: inline;
-  font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+}
+
+.quote-cite {
+  color: #12433A;
+}
+
+.description {
+  color: e2e2e2;
 }
 
 /** BOTTOM TEXTFIELD**/
