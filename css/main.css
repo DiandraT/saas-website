@@ -1,6 +1,6 @@
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 .wrapper {
@@ -37,10 +37,10 @@ ul {
 /* Syling dropdown menu */
 
 .material-icons {
-  background-color: #12433A;
+  background-color: #12433a;
   color: #fff;
   border: 1px solid;
-  border-radius: 10%; /** Curving the sides of the shape**/
+  border-radius: 10%; /** Curving the sides of the shape **/
 
 }
 
@@ -78,8 +78,8 @@ ul {
 
 .menu:hover .material-icons {
   background-color: #fff;
-  border: 2px solid #12433A;
-  color: #12433A;
+  border: 2px solid #12433a;
+  color: #12433a;
   cursor: pointer;
   outline: none;
 }
@@ -89,8 +89,8 @@ ul {
 .banner {
   position: relative;
   background-image:
-  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(https://static.pexels.com/photos/271560/pexels-photo-271560.jpeg);
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+    url("https://static.pexels.com/photos/271560/pexels-photo-271560.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 75vh;
@@ -104,17 +104,17 @@ ul {
 }
 
 .banner-heading {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 .banner-content-small {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 .banner-button a {
   margin: auto;
   text-align: center;
-  background-color: #12433A;
+  background-color: #12433a;
   border: none;
   color: #fff;
   padding: .5em;
@@ -127,11 +127,11 @@ ul {
 /** OPENING **/
 
 .opening-subhead {
-  color: #12433A;
+  color: #12433a;
 }
 
 .opening-sentence {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /** HR LINES **/
@@ -145,35 +145,31 @@ hr {
 /** ICONS **/
 
 .icon-label {
-  color: #12433A;
+  color: #12433a;
 }
 
 .icon-content {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .img-flex {
   margin: auto;
 }
 
-ul {
-  padding: 0;
-}
-
 /** FREE RESOURCES SECTION **/
 
 .msn-section {
-  color: #12433A;
+  color: #12433a;
 }
 
 .msn-content {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .resources-button a {
   margin: auto;
   text-align: center;
-  background-color: #12433A;
+  background-color: #12433a;
   border: none;
   color: #fff;
   padding: .5em;
@@ -187,7 +183,7 @@ ul {
 
 .review-one,
 .review-two {
-  background: #F8F8F8;
+  background: #f8f8f8;
   border: 1px solid #000;
   margin: 1.5em 1em;
 }
@@ -200,7 +196,7 @@ blockquote:before {
   font-family: Georgia, serif;
   display: block;
   padding-left: 10px;
-  color: #12433A;
+  color: #12433a;
   content: "\201C"; /* What makes the quotations appear */
   font-size: 4em;
   position: relative;
@@ -212,39 +208,39 @@ blockquote:before {
 
 blockquote p {
   display: inline;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
 }
 
 .quote-cite {
-  color: #12433A;
+  color: #12433a;
 }
 
-/** BOTTOM TEXTFIELD**/
+/** BOTTOM TEXTFIELD **/
 
 .bottom-textfield-one {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .bottom-textfield-two {
-  font-family: 'Open Sans', sans-serif;
-  color: #12433A;
+  font-family: "Open Sans", sans-serif;
+  color: #12433a;
   font-size: .75em;
 }
 
 input[type="text"], textarea, select {
   outline: none;
-  color:  #12433A;
-  border-color: #12433A;
-  font-family: 'Open Sans', sans-serif;
+  color: #12433a;
+  border-color: #12433a;
+  font-family: "Open Sans", sans-serif;
 }
 
 .homepage-button3 {
   outline: none;
   color: #fff;
-  background-color: #12433A;
-  border: 0px;
-  font-family: 'Open Sans', sans-serif;
+  background-color: #12433a;
+  border: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 .get-started-btn {
@@ -255,7 +251,7 @@ input[type="text"], textarea, select {
 /** FOOTER **/
 
 footer {
-  background-color: #12433A;
+  background-color: #12433a;
   color: #fff;
   padding: 2.5em;
   padding-top: 1.5em;
@@ -273,24 +269,24 @@ footer {
 }
 
 .thank-you-h1 {
-  color: #12433A;
+  color: #12433a;
 }
 
 .thank-you-sentence {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: lighter;
 }
 
 .thank-you-statement {
-  color: #12433A;
-  font-family: 'Open Sans', sans-serif;
+  color: #12433a;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
 
 /** TOUR PAGE **/
 
 .wrapper-tour {
-  background-color: #12433A;
+  background-color: #12433a;
   height: 75vh;
   position: relative;
 }
@@ -302,23 +298,23 @@ footer {
 }
 
 .tour-opening-sentence {
-  color: #12433A;
+  color: #12433a;
 }
 
 .tour-h2 {
-  color: #12433A;
+  color: #12433a;
 }
 
 .tour-bottom-h2 {
-  color: #12433A;
+  color: #12433a;
 }
 
 .tour-button a {
   margin: auto;
   text-align: center;
   background-color: #fff;
-  border: 1px solid #12433A;
-  color: #12433A;
+  border: 1px solid #12433a;
+  color: #12433a;
   padding: 1em;
   padding-left: 3em;
   padding-right: 3em;
@@ -335,32 +331,32 @@ footer {
 }
 
 .resources-h2 {
-  color: #12433A;
+  color: #12433a;
 }
 
 .team-h3 {
-  color: #12433A;
+  color: #12433a;
 }
 
 .advertising-h3 {
-  color: #12433A;
+  color: #12433a;
 }
 
 .film-h3 {
-  color: #12433A;
+  color: #12433a;
 }
 
 .dict-title,
 .dict-h4 {
-  color: #12433A;
+  color: #12433a;
 }
 
 .plugins-title {
-  color: #12433A;
+  color: #12433a;
 }
 
 .plugins-h4 {
-  color: #12433A;
+  color: #12433a;
 }
 
 .underline {
@@ -370,7 +366,7 @@ footer {
 /** SIGN UP PAGE **/
 
 .sign-up-sentence-2 {
-  color: #12433A;
+  color: #12433a;
 }
 
 fieldset {
@@ -378,7 +374,7 @@ fieldset {
 }
 
 label {
-  color: #12433A;
+  color: #12433a;
   font-weight: 300;
 }
 
@@ -386,37 +382,37 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="country"],
-input[type="city"]{
-  border: 1px solid #12433A;
+input[type="city"] {
+  border: 1px solid #12433a;
   outline: none;
 }
 
 select[id="options"],
 select[id="options-2"] {
   outline: none;
-  background-color: #E0EAE8;
-  border: 1px solid #12433A;
+  background-color: #e0eae8;
+  border: 1px solid #12433a;
 }
 
 legend {
-  color: #12433A;
+  color: #12433a;
 }
 
 input[type="radio"] + label::before {
-  border-color: #12433A;
+  border-color: #12433a;
   outline: none;
 }
 
-input[type="radio"] + label::after{
-  border-color: #12433A;
+input[type="radio"] + label::after {
+  border-color: #12433a;
 }
 
 input[type="checkbox"] + label::before {
-  border-color: #12433A;
+  border-color: #12433a;
 }
 
-input[type="checkbox"] + label::after{
-  border-color: #12433A;
+input[type="checkbox"] + label::after {
+  border-color: #12433a;
 }
 
 input[type="button"] {
@@ -427,7 +423,7 @@ input[type="button"] {
 .signup-button a {
   margin: auto;
   text-align: center;
-  background-color: #12433A;
+  background-color: #12433a;
   border: none;
   color: #fff;
   padding: 1em;
@@ -440,7 +436,7 @@ input[type="button"] {
 /** PRICING PAGE **/
 
 .pricing-wrapper {
-  background-color: #12433A;
+  background-color: #12433a;
 }
 
 .pricing-content {
@@ -462,7 +458,7 @@ input[type="button"] {
 .pricing-btn {
   border: 1px solid #fff;
   border-radius: .25em;
-  background-color: #12433A;
+  background-color: #12433a;
   padding: 2em;
   padding-top: .5em;
   padding-bottom: .5em;
@@ -478,9 +474,9 @@ input[type="button"] {
 }
 
 .mgfx-btn {
-  border: 1px solid #12433A;
+  border: 1px solid #12433a;
   background-color: #fff;
-  color: #12433A;
+  color: #12433a;
 }
 
 /** MEDIA QUERIES **/
@@ -555,8 +551,8 @@ input[type="button"] {
     margin: auto;
     text-align: center;
     background-color: #fff;
-    border: 1px solid #12433A;
-    color: #12433A;
+    border: 1px solid #12433a;
+    color: #12433a;
     padding-top: .5em;
     padding-bottom: .5em;
     padding-left: 2em;
