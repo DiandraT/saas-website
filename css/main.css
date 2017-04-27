@@ -116,7 +116,7 @@ blockquote {
   border: 1px solid #000;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019"";
+  quotes: "\201C""\201D""\2018""\2019""
 }
 
 blockquote:before {
@@ -199,6 +199,51 @@ footer {
   color: #12433A;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
+}
+
+/** TOUR PAGE **/
+
+.wrapper-tour {
+  background-color: #12433A;
+}
+
+.tour-h1 {
+  color: #fff;
+}
+
+.tour-p {
+  color: #fff;
+}
+
+.tour-opening-sentence {
+  color: #12433A;
+}
+
+.tour-h2 {
+  color: #12433A;
+}
+
+.tour-bottom-h2 {
+  color: #12433A;
+}
+
+.tour-button a {
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #12433A;
+  color: #12433A;
+  padding: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  border-radius: .25em;
+  text-decoration: none;
+}
+
+/** RESOURCES PAGE **/
+
+.resources-h2 {
+  color: #12433A; 
 }
 
 /** SIGN UP PAGE **/
