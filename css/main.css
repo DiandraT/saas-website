@@ -192,7 +192,7 @@ blockquote {
   line-height: 1.5;
 }
 
-blockquote:before {
+blockquote::before {
   font-family: Georgia, serif;
   display: block;
   padding-left: 10px;
@@ -470,7 +470,7 @@ input[type="button"] {
 }
 
 .mgfx-button {
-  color: #12433A;
+  color: #12433a;
 }
 
 .mgfx-btn {
