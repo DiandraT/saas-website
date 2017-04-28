@@ -14,6 +14,10 @@ html {
   cursor: pointer;
 }
 
+.review-one-quote {
+  font-family: "Open Sans", sans-serif;
+}
+
 /** NAVIGATION **/
 
 header nav a {
@@ -32,6 +36,14 @@ header li {
 
 ul {
   padding: 0;
+}
+
+.background-grey {
+  background-color: #e2e2e2;
+}
+
+.review-title {
+  color: #12433a;
 }
 
 /* Syling dropdown menu */
@@ -545,6 +557,8 @@ input[type="button"] {
 
   .icon-content {
     font-size: 15px;
+    margin-left: 4.5em;
+    margin-right: 4.5em;
   }
 
   .globe {
@@ -603,6 +617,11 @@ input[type="button"] {
     top: 4em;
     color: #fff;
     border: none;
+  }
+
+  .bottomf-button {
+    margin-left: 5em;
+    margin-right: 5em;
   }
 
 }
@@ -691,12 +710,29 @@ input[type="button"] {
     margin-bottom: 2rem;
   }
 
+  .review-one-quote {
+    margin-right: 7em;
+    margin-left: 7em;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .icon-content {
+    font-size: 15px;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
   footer {
     background-color: #12433a;
     color: #fff;
     padding: 2.5em;
     padding-top: 1.5em;
     text-align: center;
+  }
+
+  .bottomf-button {
+    margin-left: 5em;
+    margin-right: 5em;
   }
 
 }
@@ -778,6 +814,22 @@ input[type="button"] {
     margin-right: 10em;
     margin-left: 10em;
     padding: 3em;
+  }
+
+  .review-one-quote {
+    margin-right: 15em;
+    margin-left: 15em;
+  }
+
+  .icon-content {
+    font-size: 15px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+  .bottomf-button {
+    margin-left: 5em;
+    margin-right: 5em;
   }
 
 }
