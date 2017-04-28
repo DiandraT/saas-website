@@ -382,7 +382,8 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="country"],
-input[type="city"] {
+input[type="city"],
+input[id="postal"] {
   border: 1px solid #12433a;
   outline: none;
 }
@@ -427,8 +428,8 @@ input[type="button"] {
   border: none;
   color: #fff;
   padding: 1em;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
   border-radius: .25em;
   text-decoration: none;
 }
