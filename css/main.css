@@ -140,7 +140,6 @@ ul {
 
 hr {
   border-color: #ced0d0;
-  margin: 2rem;
   width: 50%;
   text-align: center;
   margin: 0 auto;
@@ -677,6 +676,13 @@ input[type="button"] {
     margin: 5em;
     margin-top: .5rem;
     margin-bottom: 2rem;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .tour-p3 {
+    margin-top: .5rem;
+    margin-bottom: 2rem;
   }
 
   .ideas-section {
@@ -692,7 +698,6 @@ input[type="button"] {
     padding-top: 1.5em;
     text-align: center;
   }
-
 
 }
 
@@ -734,6 +739,15 @@ input[type="button"] {
     top: 10em;
     color: #fff;
     border: none;
+  }
+
+  .tour-opening,
+  .tour-p3 {
+    margin: 5em;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    padding-left: 4em;
+    padding-right: 4em;
   }
 
   .material-icons {
