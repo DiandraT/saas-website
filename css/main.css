@@ -55,6 +55,8 @@ ul {
   color: #000;
   display: block;
   float: left;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: lighter;
 }
 
 .dropdown-content a:hover { /** Changing the dropdown links background when clicked **/
@@ -137,9 +139,11 @@ ul {
 /** HR LINES **/
 
 hr {
-  border-color: #000;
+  border-color: #e2e2e2;
   margin: 2rem;
-
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /** ICONS **/
@@ -297,8 +301,19 @@ footer {
   top: 175px;
 }
 
+.tour-p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+
 .tour-opening-sentence {
   color: #12433a;
+}
+
+.tour-opening-sentence-2,
+.tour-p3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
 }
 
 .tour-h2 {
@@ -334,21 +349,23 @@ footer {
   color: #12433a;
 }
 
-.team-h3 {
+.et-h3 {
   color: #12433a;
 }
 
-.advertising-h3 {
-  color: #12433a;
-}
-
-.film-h3 {
-  color: #12433a;
+.et-p2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
 }
 
 .dict-title,
 .dict-h4 {
   color: #12433a;
+}
+
+.dict-content-one {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
 }
 
 .plugins-title {
@@ -357,6 +374,11 @@ footer {
 
 .plugins-h4 {
   color: #12433a;
+}
+
+.plugins-slogan {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
 }
 
 .underline {
@@ -427,9 +449,9 @@ input[type="button"] {
   background-color: #12433a;
   border: none;
   color: #fff;
-  padding: 1em;
-  padding-left: 2.5em;
-  padding-right: 2.5em;
+  padding: .5em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
   border-radius: .25em;
   text-decoration: none;
 }
@@ -526,11 +548,6 @@ input[type="button"] {
     font-size: 15px;
   }
 
-  .tour-content {
-    padding: 8em;
-    top: 50px;
-  }
-
   .globe {
     height: 150px;
     width: 150px;
@@ -538,6 +555,17 @@ input[type="button"] {
 
   .active-users {
     padding-top: 3em;
+  }
+
+  .tour-content {
+    position: absolute;
+    margin: auto;
+    margin-top: 3rem;
+    left: 0;
+    right: 0;
+    top: 6em;
+    color: #fff;
+    border: none;
   }
 
   .tour-bottom-h2 {
@@ -567,6 +595,17 @@ input[type="button"] {
     font-size: .5em;
   }
 
+  .resource-content {
+    position: absolute;
+    margin: auto;
+    margin-top: 3rem;
+    left: 0;
+    right: 0;
+    top: 4em;
+    color: #fff;
+    border: none;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -577,9 +616,14 @@ input[type="button"] {
   }
 
   .banner-content {
-    margin: 5rem;
-    margin-top: .5rem;
-    margin-bottom: 2rem;
+    position: absolute;
+    margin: auto;
+    margin-top: 3rem;
+    left: 0;
+    right: 0;
+    top: 6em;
+    color: #fff;
+    border: none;
   }
 
   .material-icons {
@@ -618,6 +662,17 @@ input[type="button"] {
     margin-bottom: 2rem;
   }
 
+  .tour-content {
+    position: absolute;
+    margin: auto;
+    margin-top: 3rem;
+    left: 0;
+    right: 0;
+    top: 5em;
+    color: #fff;
+    border: none;
+  }
+
   .tour-opening {
     margin: 5em;
     margin-top: .5rem;
@@ -640,15 +695,35 @@ input[type="button"] {
   }
 
   .banner-content {
-    margin: 5rem;
-    margin-top: .5rem;
-    margin-bottom: 2rem;
+    margin-top: 9em;
+  }
+
+  .resource-content {
+    position: absolute;
+    margin: auto;
+    margin-top: 3rem;
+    left: 0;
+    right: 0;
+    top: 8em;
+    color: #fff;
+    border: none;
   }
 
   .resource-section {
     margin: 5em;
     margin-top: .5rem;
     margin-bottom: 2rem;
+  }
+
+  .tour-content {
+    position: absolute;
+    margin: auto;
+    margin-top: 3rem;
+    left: 0;
+    right: 0;
+    top: 10em;
+    color: #fff;
+    border: none;
   }
 
   .material-icons {
