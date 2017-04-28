@@ -73,7 +73,7 @@ ul {
 
 .dropdown-content a:hover { /** Changing the dropdown links background when clicked **/
   display: block;
-  font-weight: bold;
+  color: #e2e2e2;
 }
 
 .dropdown-content {
@@ -153,8 +153,6 @@ ul {
   background-color: #12433a;
   color: #fff;
 }
-
-
 
 /** OPENING **/
 
@@ -385,6 +383,7 @@ footer {
 .et-p2 {
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
+  font-size: 16px;
 }
 
 .dict-title,
@@ -393,6 +392,11 @@ footer {
 }
 
 .dict-content-one {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+
+.dict-content {
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
 }
@@ -505,6 +509,8 @@ input[type="button"] {
   margin-right: 2em;
   margin-left: 2em;
   color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
 }
 
 .pricing-btn {
@@ -520,13 +526,22 @@ input[type="button"] {
   background-color: red;
 }
 
-.pricing-card-one {
-  background-color: #fafafa;
-  border: 1px solid #12433a;
-  margin: 1em;
+.trial-header,
+.basic-header,
+.plus-header {
+  background-color: #12433a;
+  color: #fff;
 }
 
-.features li:not(last-child) {
+.pricing-card-one,
+.pricing-card-two,
+.pricing-card-three {
+  margin: 1em;
+  margin-bottom: 5em;
+
+}
+
+.features li:not(:last-child) {
   border: 1px solid #000;
   border-top: 0;
   border-left: 0;
@@ -534,9 +549,23 @@ input[type="button"] {
   padding-bottom: 1em;
 }
 
+.features-content {
+  border: 2px solid #12433a;
+  padding-bottom: 2em;
+}
+
 .button a {
   text-decoration: none;
   color: #fff;
+}
+
+.faq-title {
+  color: #12433a;
+  padding-left: 1.5em;
+}
+
+.faq-background {
+  background-color: #f2f2f2;
 }
 
 .mgfx-button {
@@ -660,6 +689,17 @@ input[type="button"] {
     margin-right: 5em;
   }
 
+  .banner-content {
+    position: absolute;
+    margin: auto;
+    margin-top: 3rem;
+    left: 0;
+    right: 0;
+    top: 6em;
+    color: #fff;
+    border: none;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -675,7 +715,7 @@ input[type="button"] {
     margin-top: 3rem;
     left: 0;
     right: 0;
-    top: 6em;
+    top: 5em;
     color: #fff;
     border: none;
   }
@@ -720,9 +760,11 @@ input[type="button"] {
     position: absolute;
     margin: auto;
     margin-top: 3rem;
+    margin-right: 7em;
+    margin-left: 7em;
     left: 0;
     right: 0;
-    top: 5em;
+    top: 4em;
     color: #fff;
     border: none;
   }
@@ -781,7 +823,7 @@ input[type="button"] {
   }
 
   .banner-content {
-    margin-top: 9em;
+    margin-top: 7em;
   }
 
   .resource-content {
@@ -790,7 +832,7 @@ input[type="button"] {
     margin-top: 3rem;
     left: 0;
     right: 0;
-    top: 8em;
+    top: 7em;
     color: #fff;
     border: none;
   }
@@ -808,7 +850,7 @@ input[type="button"] {
     margin-top: 3rem;
     left: 0;
     right: 0;
-    top: 10em;
+    top: 8em;
     color: #fff;
     border: none;
   }
