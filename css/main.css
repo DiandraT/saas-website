@@ -73,7 +73,7 @@ ul {
 
 .dropdown-content a:hover { /** Changing the dropdown links background when clicked **/
   display: block;
-  color: #fff;
+  font-weight: bold;
 }
 
 .dropdown-content {
@@ -137,6 +137,24 @@ ul {
   border-radius: .25em;
   text-decoration: none;
 }
+
+.banner-button a:hover,
+.resources-button a:hover,
+.get-started-btn a:hover,
+.button a:hover,
+.signup-button a:hover {
+  background-color: #fff;
+  color: #12433a;
+  border: 1px solid #12433a;
+  cursor: pointer;
+}
+
+.tour-button a:hover {
+  background-color: #12433a;
+  color: #fff;
+}
+
+
 
 /** OPENING **/
 
@@ -496,6 +514,24 @@ input[type="button"] {
   padding: 2em;
   padding-top: .5em;
   padding-bottom: .5em;
+}
+
+.basic-header {
+  background-color: red;
+}
+
+.pricing-card-one {
+  background-color: #fafafa;
+  border: 1px solid #12433a;
+  margin: 1em;
+}
+
+.features li:not(last-child) {
+  border: 1px solid #000;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding-bottom: 1em;
 }
 
 .button a {
