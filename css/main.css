@@ -364,6 +364,21 @@ footer {
   text-decoration: none;
 }
 
+.brief-features-title {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #12433a;
+}
+
+th, td {
+  border: 1px solid #12433a;
+  padding: 0.5em;
+}
+
+td {
+  color: #12433a;
+  background-color: #f8f8f8;
+}
+
 /** RESOURCES PAGE **/
 
 .resource-content {
@@ -564,8 +579,9 @@ input[type="button"] {
   padding-left: 1.5em;
 }
 
-.faq-background {
-  background-color: #f2f2f2;
+.faq-background,
+.features-background {
+  background-color: #f8f8f8;
 }
 
 .mgfx-button {
@@ -579,6 +595,14 @@ input[type="button"] {
 }
 
 /** MEDIA QUERIES **/
+
+@media only screen and (min-width: 25em) {
+  
+  .features-table-content {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}
 
 @media only screen and (min-width: 25em) {
 
