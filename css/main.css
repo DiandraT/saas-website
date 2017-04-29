@@ -113,7 +113,7 @@ ul {
 
 .banner-content {
   position: absolute;
-  top: 150px;
+  top: 170px;
   color: #fff;
 }
 
@@ -381,6 +381,12 @@ td {
 
 /** RESOURCES PAGE **/
 
+.wrapper-resources {
+  background-color: #12433a;
+  height: 75vh;
+  position: relative;
+}
+
 .resource-content {
   color: #fff;
   position: absolute;
@@ -523,9 +529,16 @@ input[type="button"] {
 .pricing-p {
   margin-right: 2em;
   margin-left: 2em;
+  top: 175px;
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
+}
+
+.wrapper-pricing {
+  background-color: #12433a;
+  height: 75vh;
+  position: relative;
 }
 
 .pricing-btn {
@@ -700,10 +713,8 @@ input[type="button"] {
   .resource-content {
     position: absolute;
     margin: auto;
-    margin-top: 3rem;
     left: 0;
     right: 0;
-    top: 4em;
     color: #fff;
     border: none;
   }
@@ -719,7 +730,7 @@ input[type="button"] {
     margin-top: 3rem;
     left: 0;
     right: 0;
-    top: 6em;
+    top: 7em;
     color: #fff;
     border: none;
   }
@@ -774,6 +785,11 @@ input[type="button"] {
     padding: 2em;
   }
 
+  .opening-sentence {
+    margin-left: 6em;
+    margin-right: 6em;
+  }
+
   .resource-section {
     margin: 5em;
     margin-top: .5rem;
@@ -801,9 +817,16 @@ input[type="button"] {
     padding-right: 1em;
   }
 
+  .tour-opening-sentence-2 {
+    margin-left: 6em;
+    margin-right: 6em;
+  }
+
   .tour-p3 {
     margin-top: .5rem;
     margin-bottom: 2rem;
+    margin-right: 6em;
+    margin-left: 6em;
   }
 
   .ideas-section {
@@ -822,6 +845,11 @@ input[type="button"] {
     font-size: 15px;
     margin-left: 1em;
     margin-right: 1em;
+  }
+
+  .msn-content {
+    margin-left: 6em;
+    margin-right: 6em;
   }
 
   footer {
@@ -850,22 +878,14 @@ input[type="button"] {
     margin-top: 7em;
   }
 
-  .resource-content {
-    position: absolute;
-    margin: auto;
-    margin-top: 3rem;
-    left: 0;
-    right: 0;
-    top: 7em;
-    color: #fff;
-    border: none;
-  }
-
   .resource-section {
     margin: 10em;
     margin-top: .5rem;
     margin-bottom: 2rem;
+  }
 
+  .resource-content {
+    margin-top: 3em;
   }
 
   .tour-content {
