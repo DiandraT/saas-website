@@ -39,7 +39,7 @@ ul {
 }
 
 .background-grey {
-  background-color: #e2e2e2;
+  background-color: #f8f8f8;
 }
 
 .review-title {
@@ -597,7 +597,7 @@ input[type="button"] {
 /** MEDIA QUERIES **/
 
 @media only screen and (min-width: 25em) {
-  
+
   .features-table-content {
     margin-left: 2em;
     margin-right: 2em;
